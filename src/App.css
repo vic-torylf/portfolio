@@ -43,6 +43,27 @@ nav {
 #about h1 {
   font-size: 4rem;
   margin-top: 0;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-iteration-count: once;
+}
+
+#about h2 {
+  font-size: 1.4rem;
+  animation-name: fadein;
+  animation-duration: 6s;
+  animation-iteration-count: once;
+}
+
+@keyframes fadein{
+  0% {
+    color: #0D0208;
+    ;
+  }
+  
+  100% {
+    color: #FFF;
+  }
 }
 
 #project-section {
