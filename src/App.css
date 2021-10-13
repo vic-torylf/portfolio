@@ -1,0 +1,77 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+html {
+  color: #FFF;
+  background-color: #0D0208;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #DDD;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+  margin-right: 24px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #05d9e8;
+  transition: 0.2s;
+}
+
+#about {
+  height: 60vh;
+  padding: 100px 5vw 100px 15vw;
+  border: 10px solid #FFF;
+}
+
+#about h1 {
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+#project-section {
+  text-align: center;
+  padding: 60px 10vw;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4em;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+#project-grid a:hover h4 {
+  color: #F8F005;
+  transition: 0.2s;
+}
+
+.project-image {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+}
