@@ -4,18 +4,16 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 export default function App() {
     return (
         <Router>
+            <Route path="/portfolio" component={Header} />  
             <Navbar />
             <Switch>
-                <Route exact path="/portfolio"component={Header} />  
-                <Route exact path="/work"component={Work} />
-                <Route exact path="/contact"component={Contact} />
+                <Route path="/work" component={Work} />
+                <Route path="/contact" component={Contact} />
             </Switch>
-            <Footer />
         </Router>
             
     )
