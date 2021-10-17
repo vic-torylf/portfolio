@@ -1,9 +1,6 @@
-import Navbar from './Navbar';
-
 export default function Header() {
     return (
         <header>
-            <Navbar />
             <div id="about">
                 <div>
                     <h1>Hi, <br/>I am Victor</h1>
