@@ -27,11 +27,11 @@ nav {
 .nav-link {
   margin-right: 24px;
   color: #DDD;
+  transition: 400ms;
 }
 
 .nav-link:hover {
   color: #05d9e8;
-  transition: 300ms;
 }
 
 #about {
@@ -93,7 +93,7 @@ nav {
 
 #project-section {
   text-align: center;
-  padding: 60px 10vw 0 10vw;
+  padding: 100px 10vw;
 }
 
 #project-grid {
@@ -106,12 +106,11 @@ nav {
 }
 
 .project-title {
-  transition: 0.3s;
+  transition: 400ms;
 }
 
 #project-grid a:hover h2 {
   color: #F8F005;
-  transition: 0.2s;
 }
 
 .project-image {
@@ -123,7 +122,7 @@ nav {
 #contact {
   background-color: rgba(66, 66, 66, 0.5);
   text-align: center;
-  padding: 60px 10vw;
+  padding: 100px 10vw;
 }
 
 footer {
