@@ -26,13 +26,12 @@ nav {
 
 .nav-link {
   margin-right: 24px;
-  transition: 0.3s;
   color: #DDD;
 }
 
 .nav-link:hover {
   color: #05d9e8;
-  transition: 0.2s;
+  transition: 300ms;
 }
 
 #about {
@@ -49,13 +48,13 @@ nav {
   font-size: 4rem;
   margin-top: 0;
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 2000ms;
   animation-iteration-count: once;
 }
 
 #about p {
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 2000ms;
   animation-iteration-count: once;
 }
 
@@ -72,13 +71,14 @@ nav {
 .header-content .nav-link {
   font-size: 2rem;
   animation-name: header-nav-link-fadein;
-  animation-duration: 2.5s;
+  animation-duration: 2500ms;
   animation-iteration-count: once;
 }
 
 @keyframes header-nav-link-fadein {
   0% {
     color: #0D0208;
+    pointer-events: none;
   }
  
   60% {
@@ -86,7 +86,8 @@ nav {
   }
 
   100% {
-    color: #DDD;;
+    color: #DDD;
+    pointer-events: none;
   }
 }
 
