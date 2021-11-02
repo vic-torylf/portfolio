@@ -1,8 +1,10 @@
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 export default function Work() {
     return (
         <>
+            <Navbar />
             <div id="project-section">
                 <div id="project-grid">
                     <a
