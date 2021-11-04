@@ -26,22 +26,23 @@ export default function Contact() {
                 <div id="form">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="upper-form">
-                            <input className="input" type="text" name="name" placeholder="Name" />
+                            <input className="input" type="text" name="name" placeholder="Name*" required />
                         </div>
                         <div className="upper-form">
-                            <input className="input" type="email" name="email" placeholder="Email" />
+                            <input className="input" type="email" name="email" placeholder="Email*" required />
                         </div>
                         <div className="lower-form">
-                            <input className="input" name="subject" placeholder="Subject" />
+                            <input className="input" name="subject" placeholder="Subject*" required />
                         </div>
                         <div className="lower-form">
-                            <textarea name="message" placeholder="Message" />
+                            <textarea name="message" placeholder="Message*" required />
                         </div>
                         <div className="submit">
                             <input type="submit" value="Send" />
                         </div>
                     </form>
                 </div>
+                <h3 className="my-email">victoryiplf@gmail.com</h3>
             </div>
             <Footer />
         </>
