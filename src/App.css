@@ -91,7 +91,7 @@ nav {
 
 #project-section {
   text-align: center;
-  padding: 100px 10vw 60px 10vw;
+  padding: 100px 10vw 10vh 10vw;
   border: 10px solid #FFF;
 }
 
@@ -196,15 +196,7 @@ form textarea {
   box-sizing: border-box;
   resize: vertical;
 }
-
-form .submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 form .submit input {
-  position: relative;
   font-weight: bold;
   height: 40px;
   width: 90px;
@@ -249,7 +241,14 @@ footer a:hover {
   transition: 0.2s;
 }
 
-@media only screen and (max-height: 568px) and (max-width: 440px), (max-height: 540px), (max-width: 228px) {
+@media only screen and (max-height: 620px) and (max-width: 420px), (max-width: 398px) {
+  #about {
+    height: calc(100vh - 70px);
+    padding: 50px 15vw 0 10vw;
+  }
+}
+
+@media only screen and (max-height: 690px) and (max-width: 440px), (max-height: 540px), (max-width: 228px) {
   #about {
     height: 100%;
   }
@@ -258,12 +257,6 @@ footer a:hover {
 @media only screen and (max-height: 740px), (max-width: 420px) {
   #contact {
     height: 100%;
-  }
-}
-
-@media only screen and (max-height: 568px) and (max-width: 420px) {
-  #about {
-    padding: 50px 15vw 0 10vw;
   }
 }
 
