@@ -42,7 +42,7 @@ export default function Contact() {
                         </div>
                     </form>
                 </div>
-                <h3 className="my-email">victoryiplf@gmail.com</h3>
+                <h3 className="my-email">victoryipstu@gmail.com</h3>
             </div>
             <Footer />
         </>
